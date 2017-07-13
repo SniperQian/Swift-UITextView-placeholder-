@@ -1,11 +1,11 @@
 #SWIFT UITextView 实现 placeHolder
 
-### 实现原理
-####备注：方法比较笨，但是可以解决基本需求
-#####1、构造一个UITextView,默认填充自己需要的placeholder,并且设置颜色为灰色
-#####2、监听UITextView的三个事件来改变字体颜色和文字内容：textViewDidBeginEditing ， textViewShouldEndEditing ， textViewDidChange 。
+## 实现原理
+###备注：方法比较笨，但是可以解决基本需求
+###1、构造一个UITextView,默认填充自己需要的placeholder,并且设置颜色为灰色
+###2、监听UITextView的三个事件来改变字体颜色和文字内容：textViewDidBeginEditing ， textViewShouldEndEditing ， textViewDidChange 。
 
-#####代码：
+###代码：
 	 //存放编辑过的内容
 	 var userContent: String! = ""
     
